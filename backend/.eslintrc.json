@@ -11,6 +11,14 @@
         "sourceType": "module"
     },
     "rules": {
-        "linebreak-style": ["error", "windows"]
+        "linebreak-style": ["error", "windows"],
+        "no-trailing-spaces": "off",
+        "arrow-body-style": "off",
+        "object-curly-newline": [
+            "error",
+            {
+                "multiline": true
+            }
+        ]
     }
 }
