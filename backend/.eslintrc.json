@@ -19,6 +19,7 @@
             {
                 "multiline": true
             }
-        ]
+        ],
+        "no-param-reassign": "off"
     }
 }
