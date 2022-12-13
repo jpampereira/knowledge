@@ -1,0 +1,6 @@
+module.exports = {
+	authSecret: ''
+}
+
+// Arquivo modelo
+// Criar arquivo '.env' para armazenar o segredo que será utilizado para gerar os tokens JWT
