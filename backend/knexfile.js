@@ -1,12 +1,9 @@
+const { db } = require('./.env');
+
 module.exports = {
   client: 'pg',
   version: 14.1,
-  connection: {
-    host: 'localhost',
-    user: 'postgres',
-    password: 'postgres',
-    database: 'knowledge',
-  },
+  connection: db,
   pool: {
     min: 2,
     max: 10,

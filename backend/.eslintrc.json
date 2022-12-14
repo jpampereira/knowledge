@@ -20,6 +20,7 @@
                 "multiline": true
             }
         ],
-        "no-param-reassign": "off"
+        "no-param-reassign": "off",
+        "import/extensions": ["error", "never"]
     }
 }
